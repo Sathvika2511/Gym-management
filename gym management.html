@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gym Management System</h1>
+        
+        <div class="form-section">
+            <h2>Add Member</h2>
+            <input type="text" id="name" placeholder="Member Name">
+            <input type="text" id="membershipId" placeholder="Membership ID">
+            <button onclick="addMember()">Add Member</button>
+        </div>
+        
+        <div class="list-section">
+            <h2>Members List</h2>
+            <ul id="member-list"></ul>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
